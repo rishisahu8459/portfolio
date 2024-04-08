@@ -40,18 +40,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Welcome</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       Hey there! 👋 Dive into the world of awesome web experiences with me, your friendly neighborhood front-end developer! I'm all about turning those cool designs you love into interactive wonders on the web. Whether it's making buttons pop, pages dance, or forms sing, I've got the skills to make it happen. So kick back, click around, and let's explore the digital playground together. Check out my portfolio and get ready to be wowed!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

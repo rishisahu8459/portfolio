@@ -32,6 +32,10 @@ import tripguide from "./tripguide.png";
 import ghrce from "./company/ghrce.png";
 import ghrp from "./company/ghrp.webp";
 import clustor from "./company/Clustor.png";
+import forge from "./forge-min.png";
+import note from "./note-min.png";
+import next from "./next-min.png";
+import open from "./open-min.png";
 
 export {
   logo,
@@ -66,4 +70,8 @@ export {
   ghrce,
   ghrp,
   clustor,
+  next,
+  open,
+  note,
+  forge,
 };

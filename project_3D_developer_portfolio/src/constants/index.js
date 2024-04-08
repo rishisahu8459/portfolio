@@ -27,6 +27,10 @@ import {
   ghrce,
   ghrp,
   clustor,
+  note,
+  open,
+  next,
+  forge,
 
 
 
@@ -43,6 +47,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+  // {
+  //   id: "Projects",
+  //   title: "Projects",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -51,19 +59,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
+  
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Android Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Fullstack developer",
     icon: creator,
   },
 ];
@@ -201,26 +206,60 @@ const testimonials = [
 
 const projects = [
   {
+    name: "CryptoCrowd Forge ",
+    description:
+      "a crowdfunding platform leveraging blockchain technology, allowing users to Create Campaigns, set goals, deadlines, send and receive donations securely and transparently.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ether.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "red-text-gradient",
+      },
+    ],
+    image: forge,
+    source_code_link: "https://cryptocrowdforge.netlify.app/",
+  },
+  {
     name: "Apparel store with dashboard And CMS",
     description:
       "Developed a Dashboard and CMS using Next.js, Javascript and Mysql to manage multiple stores. ",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Mysql",
+        color: "red-text-gradient",
+      },
     ],
-    image: carrent,
+    image: next,
     source_code_link: "https://github.com/rishisahu8459/ecommerce-admin",
   },
+  
   {
     name: "Url Shortener and Dashboard",
     description:
@@ -239,7 +278,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: open,
     source_code_link: "https://github.com/rishisahu8459/open-in-app-Application",
   },
   {
@@ -260,7 +299,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: carrent,
     source_code_link: "https://github.com/rishisahu8459/ecommerceapp",
   },
   {
@@ -281,7 +320,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: note,
     source_code_link: "https://github.com/rishisahu8459/Noteapp",
   },
 ];

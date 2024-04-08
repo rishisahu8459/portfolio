@@ -49,16 +49,21 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 84px;
-  color: #3d1c56;
+  font-size: 56px;
+  color: #da4ea2; /* Change the color to #da4ea2 */
+  font-family: 'cali', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+
   @media only screen and (max-width: 768px) {
-    text-align: center;
+    font-size: 36px;
   }
 `;
 
 const WhatWeDo = styled.div`
   display: flex;
   align-items: center;
+  font-size: 24px;  
   gap: 10px;
 `;
 
@@ -68,7 +73,7 @@ const Line = styled.img`
 
 const Subtitle = styled.h2`
   color: #da4ea2;
-  font-size: 54px;
+  font-size: 24px;
 `;
 
 const Desc = styled.p`
@@ -100,29 +105,29 @@ const Right = styled.div`
   }
 `;
 
-const Img = styled.img`
-  width: 800px;
-  height: 600px;
-  object-fit: contain;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  animation: animate 2s infinite ease alternate;
+// const Img = styled.img`
+//   width: 800px;
+//   height: 600px;
+//   object-fit: contain;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   animation: animate 2s infinite ease alternate;
 
-  @media only screen and (max-width: 768px) {
-    width: 300px;
-    height: 300px;
-  }
+//   // @media only screen and (max-width: 768px) {
+//   //   width: 300px;
+//   //   height: 300px;
+//   // }
 
-  @keyframes animate {
-    to {
-      transform: translateY(20px);
-    }
-  }
-`;
+//   // @keyframes animate {
+//   //   to {
+//   //     transform: translateY(20px);
+//   //   }
+//   }
+// `;
 
 const Hero = () => {
   return (
@@ -130,15 +135,26 @@ const Hero = () => {
       {/* <Navbar /> */}
       <Container>
         <Left>
-        <Subtitle>Rishabh sahu</Subtitle>
-          <Title>Front End Developer</Title>
-          {/* <WhatWeDo>
-            
-          </WhatWeDo> */}
-          <Desc>
-            creating the best user experience for your web applications
-          </Desc>
-          <Button>check out my Resume</Button>
+        <Subtitle>&lt;div&gt;</Subtitle>
+          <Title>FRONTEND DEVELOPER;</Title>
+          <Subtitle>&lt;/div&gt;</Subtitle>
+          <WhatWeDo>
+          Crafting Interactive, Fast, Aesthetic Front-End Marvels with a Creative Touch.
+          </WhatWeDo>
+          {/* <Desc>
+          
+          </Desc> */}
+          <div className='flex gap-4'>
+          <Button onClick={() => window.open("https://docs.google.com/document/d/1iBYn5M8H-mr_aDfs7rrEzVfMB1R6qN36ZaOuPIC5oyg/edit?usp=sharing", "_blank")}>Resume</Button>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <h4>github</h4>  
+            </a>
+             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <h4>linkedin</h4>
+            </a>
+          </div>
+          <h6>Scroll Down to the abyss of creations.</h6>
+          
         </Left>
         <Right>
           <Canvas>
@@ -150,13 +166,13 @@ const Hero = () => {
                 <MeshDistortMaterial
                   color="#3d1c56"
                   attach="material"
-                  distort={0.5}
+                  distort={0.4}
                   speed={2}
                 />
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img src="../assets/tech/docker.png" />
+          {/* <Img src="../assets/tech/docker.png" /> */}
         </Right>
       </Container>
     </Section>
