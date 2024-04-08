@@ -23,9 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
-  
+  robo,
+  ghrce,
+  ghrp,
+  clustor,
+
+
 
 } from "../assets";
+
+import  "../assets/company/robo.png";
 
 export const navLinks = [
   {
@@ -120,8 +127,8 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "MOBICORE INFOTECH SOFTWARE AND ENERGY PVT. LTD",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: robo,
+    iconBg: "#E6DEDD",
     date: "December 2023 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -132,8 +139,8 @@ const experiences = [
   },
   {
     title: "Full Stack Developer - Intern",
-    company_name: "Cluster Computing",
-    icon: tesla,
+    company_name: "Clustor Computing",
+    icon: clustor,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -146,8 +153,8 @@ const experiences = [
   {
     title: "Bachelors of Technology in Computer Science and Engineering",
     company_name: "G.H Raisoni College of Engineering, Nagpur",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: ghrce,
+    iconBg: "#E6DEDD",
     date: "December 2021 - June 2024*",
     points: [
       "Cource Work: Data Structures, Algorithms, Operating Systems, Database Management Systems, Computer Networks, Cloud Technologies, Software Engineering, Machine Learning, Artificial Intelligence, Cloud Computing, Internet of Things, Blockchain Technology, Cyber Security, Big Data Analytics, and many more.",
@@ -156,7 +163,7 @@ const experiences = [
   {
     title: "Diploma In Computer Engineering",
     company_name: "G.H Raisoni Polytechnic, Nagpur",
-    icon: meta,
+    icon: ghrp,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
