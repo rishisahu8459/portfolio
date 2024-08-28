@@ -170,7 +170,7 @@ const experiences = [
     company_name: "G.H Raisoni Polytechnic, Nagpur",
     icon: ghrp,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2018 - 2021",
     points: [
       "Cource Work: Data Structures, Algorithms, Operating Systems, Database Management Systems, Computer Networks, Cloud Technologies, Software Engineering, Machine Learning, Artificial Intelligence, Cloud Computing, Internet of Things, Blockchain Technology, Cyber Security, Big Data Analytics, and many more.",
     ],
