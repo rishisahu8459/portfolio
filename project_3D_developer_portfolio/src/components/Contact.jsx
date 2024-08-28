@@ -74,7 +74,7 @@ const Contact = () => {
       >
         
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-         <h4>risshishahuh112@gmail.com</h4>
+        <p> <h4>rishishahu112@gmail.com</h4></p>
         <p className={styles.sectionHeadText}>Get in touch</p>
         <form
           ref={formRef}
