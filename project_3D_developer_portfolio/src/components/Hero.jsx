@@ -145,7 +145,7 @@ const Hero = () => {
           
           </Desc> */}
           <div className='flex gap-4'>
-          <Button onClick={() => window.open("https://docs.google.com/document/d/1iBYn5M8H-mr_aDfs7rrEzVfMB1R6qN36ZaOuPIC5oyg/edit?usp=sharing", "_blank")}>Resume</Button>
+          <Button onClick={() => window.open("https://docs.google.com/document/d/1ti5xekszJzQ7i5w8fwUkfYHDLj2wDWZWVeQXGsLH44s/edit?usp=sharing", "_blank")}>Resume</Button>
           <a href="https://github.com/rishisahu8459" target="_blank" rel="noopener noreferrer">
               <h4>github</h4>  
             </a>
