@@ -36,6 +36,7 @@ import forge from "./forge-min.png";
 import note from "./note-min.png";
 import next from "./next-min.png";
 import open from "./open-min.png";
+import Accenture from "./company/Accenture.png";
 
 export {
   logo,
@@ -74,4 +75,5 @@ export {
   open,
   note,
   forge,
+  Accenture
 };

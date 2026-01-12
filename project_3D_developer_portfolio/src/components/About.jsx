@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Hey there! 👋 Dive into the world of awesome web experiences with me, your friendly neighborhood front-end developer! I'm all about turning those cool designs you love into interactive wonders on the web. Whether it's making buttons pop, pages dance, or forms sing, I've got the skills to make it happen. So kick back, click around, and let's explore the digital playground together. Check out my portfolio and get ready to be wowed!
+      Associate Software Engineer with hands-on experience building enterprise web applications using React, TypeScript, and Redux. Currently working on Metrolinx’s Content Management Platform at Accenture, delivering production-grade features, POCs, accessibility improvements, and high-coverage unit tests while supporting Azure CI/CD pipelines and releases. Strong collaborator with backend, QA, and architecture teams, with a growing focus on cloud, DevOps, and secure application development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

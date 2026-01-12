@@ -31,6 +31,9 @@ import {
   open,
   next,
   forge,
+  Accenture
+  
+  
 
 
 
@@ -70,6 +73,10 @@ const services = [
   {
     title: "Fullstack developer",
     icon: creator,
+  },
+   {
+    title: "Cloud Developer",
+    icon: backend,
   },
 ];
 
@@ -129,6 +136,20 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Associate Software Engineer (Full-time)",
+    company_name: "Accenture Bengaluru, India",
+    icon: Accenture,
+    iconBg: "#E6DEDD",
+    date: "Nov 2024 - Present",
+    points: [
+      "Web Application Development: Developed responsive web interfaces using React, TypeScript, and Redux, contributing to a high-performance application architecture aligned with modern UI/UX standards.",
+      "Feature Development & POCs: Implemented new features and POCs by translating business requirements and UI designs into reusable components and efficient state-driven workflows, ensuring consistency and usability across the platform.",
+      "Testing, Bugs & Releases: Resolved production and UAT bugs, wrote and maintained Jest unit tests with ~95% coverage, and supported deployments, releases, and release note preparation for stable production rollouts.",
+      "CI/CD & Build Pipelines: Validated Azure CI/CD pipelines and build workflows, ensuring successful builds, test execution, and deployment readiness across environments.",
+      "Cross-Functional Collaboration: Worked closely with backend engineers, QA teams, and solution architects to debug complex issues and continuously improve application performance while learning best practices.",
+    ],
+  },
   {
     title: "Software Developer Intern",
     company_name: "MOBICORE INFOTECH SOFTWARE AND ENERGY PVT. LTD",
