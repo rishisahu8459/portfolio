@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
   robo,
   ghrce,
   ghrp,
@@ -104,6 +105,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",

@@ -7,8 +7,9 @@ import { HeroCanvas } from "./canvas";
 const roles = [
   "Frontend Developer",
   "React Specialist",
-  "3D / Creative Dev",
-  "UI Engineer",
+  "Cloud Developer",
+  "Agentic AI",
+  "Cyber Security",
 ];
 
 // Avoid mounting the heavy WebGL canvas on small / low-power devices.
@@ -119,7 +120,7 @@ const Hero = () => {
 
       {/* Content */}
       <div
-        className={`${styles.paddingX} relative z-10 h-full max-w-7xl mx-auto flex flex-col justify-center`}
+        className={`${styles.paddingX} relative z-10 h-full max-w-7xl mx-auto flex flex-col justify-center pt-24 sm:pt-28`}
       >
         <motion.div
           variants={container}
