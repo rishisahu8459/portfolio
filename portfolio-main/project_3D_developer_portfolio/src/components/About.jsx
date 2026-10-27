@@ -7,9 +7,9 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const stats = [
-  { value: "1.5+", label: "Years building products" },
-  { value: "10+", label: "Projects shipped" },
-  { value: "95%", label: "Unit test coverage" },
+  { value: "2+", label: "Years in product engineering" },
+  { value: "10+", label: "Modules improved" },
+  { value: "95%", label: "Jest test coverage" },
 ];
 
 const cardBase = "glass-card p-6 relative overflow-hidden group";
@@ -30,20 +30,14 @@ const About = () => {
         >
           <div className="absolute -top-24 -right-24 w-56 h-56 rounded-full bg-accent/20 blur-3xl group-hover:bg-accent/30 transition-colors" />
           <h3 className="text-white text-[22px] font-bold mb-3">
-            Associate Software Engineer{" "}
+            Software Development Engineer{" "}
             <span className="text-gradient-accent">@ Accenture</span>
           </h3>
           <p className="text-secondary text-[15px] leading-[28px]">
-            I build enterprise web applications with React, TypeScript and
-            Redux. Currently working on Metrolinx's Content Management Platform —
-            delivering production-grade features, POCs, accessibility
-            improvements and high-coverage unit tests while supporting Azure
-            CI/CD pipelines and releases.
+            Software Development Engineer with about 2 years at Accenture, building reusable React/TypeScript component libraries and high-performance enterprise interfaces for fare-management systems used by thousands of users. I collaborate closely with product owners, UX designers, backend engineers, and QA to turn complex workflows into scalable, customer-facing experiences.
           </p>
           <p className="text-secondary text-[15px] leading-[28px] mt-3">
-            I love turning complex requirements into clean, fast and delightful
-            interfaces — with a growing focus on cloud, DevOps and secure
-            application development.
+            My focus is on performance optimization, reusable UI systems, cross-functional delivery, and production-grade engineering — from design handoff to release readiness, with strong emphasis on testing, CI/CD, and secure application delivery.
           </p>
 
           <div className="mt-6 grid grid-cols-3 gap-4">

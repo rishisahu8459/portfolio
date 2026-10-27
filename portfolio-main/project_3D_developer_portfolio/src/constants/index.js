@@ -67,20 +67,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Engineering",
     icon: web,
   },
-  
   {
-    title: "Android Developer",
+    title: "Reusable UI Systems",
     icon: backend,
   },
   {
-    title: "Fullstack developer",
+    title: "Full-Stack Prototyping",
     icon: creator,
   },
-   {
-    title: "Cloud Developer",
+  {
+    title: "Cloud & DevOps",
     icon: backend,
   },
 ];
@@ -146,30 +145,30 @@ const technologies = [
 
 const experiences = [
     {
-    title: "Associate Software Engineer (Full-time)",
-    company_name: "Accenture Bengaluru, India",
+    title: "Software Development Analyst (Full-time) — Promoted from Associate Software Engineer",
+    company_name: "Accenture, Bengaluru, India",
     icon: Accenture,
     iconBg: "#E6DEDD",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 – Present",
     points: [
-      "Web Application Development: Developed responsive web interfaces using React, TypeScript, and Redux, contributing to a high-performance application architecture aligned with modern UI/UX standards.",
-      "Feature Development & POCs: Implemented new features and POCs by translating business requirements and UI designs into reusable components and efficient state-driven workflows, ensuring consistency and usability across the platform.",
-      "Testing, Bugs & Releases: Resolved production and UAT bugs, wrote and maintained Jest unit tests with ~95% coverage, and supported deployments, releases, and release note preparation for stable production rollouts.",
-      "CI/CD & Build Pipelines: Validated Azure CI/CD pipelines and build workflows, ensuring successful builds, test execution, and deployment readiness across environments.",
-      "Cross-Functional Collaboration: Worked closely with backend engineers, QA teams, and solution architects to debug complex issues and continuously improve application performance while learning best practices.",
+      "Reusable Components: Built new features, POCs, and business workflows as reusable React/TypeScript component libraries, cutting design-to-dev handoff time and improving UI consistency across 10+ product modules.",
+      "Performance Engineering: Led migration of 47+ components across 4 enterprise fare-management modules to a redesigned table architecture, cutting UI re-renders on cell edit from 100+ rows to 1 and reducing render time by 20x.",
+      "Scalability: Re-architected table state management to support 500+ rows, improving column sort by 6x and reducing DOM updates by up to 25x per interaction while replacing a near-unusable legacy component.",
+      "Web Applications: Delivered responsive interfaces with React, TypeScript, Redux, Context API, and Vite for a high-traffic app used by thousands of internal users, integrating REST APIs, Microsoft authentication (Azure AD), and client-side form validation.",
+      "Testing & Releases: Achieved about 95% Jest unit test coverage; resolved 30+ production and UAT bugs with zero critical defects across 4 consecutive releases and maintained Azure CI/CD pipelines for stable deployments.",
+      "UX & Stakeholder Collaboration: Worked with UX designers, product owners, backend engineers, QA, and architects in Agile sprints to turn new designs into production-ready components and workflows.",
     ],
   },
   {
-    title: "Software Developer Intern",
-    company_name: "MOBICORE INFOTECH SOFTWARE AND ENERGY PVT. LTD",
+    title: "Software Development Engineer (Internship)",
+    company_name: "Mobicore Infotech Software And Energy Pvt. Ltd., Nagpur, India",
     icon: robo,
     iconBg: "#E6DEDD",
-    date: "December 2023 - May 2024",
+    date: "Dec 2023 – Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led front-end development of the Swayam Control Panel using React.js, Firebase, and Node.js, delivering real-time device control, scheduling, and usage analytics.",
+      "Built a clean, responsive home automation experience with data-driven dashboards and effective state handling for device operations.",
+      "Worked closely with product stakeholders to implement features for scheduling, monitoring, and insights across the control panel.",
     ],
   },
   {
@@ -236,119 +235,93 @@ const testimonials = [
 
 const projects = [
   {
-    name: "CryptoCrowd Forge ",
+    name: "PayKit",
     description:
-      "a crowdfunding platform leveraging blockchain technology, allowing users to Create Campaigns, set goals, deadlines, send and receive donations securely and transparently.",
+      "Accessible, themeable checkout component library with a serverless payments backend on AWS: idempotent orders, server-side Razorpay verification, deduplicated signed webhooks, and a Step Functions refund workflow.",
     tags: [
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ether.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Solidity",
-        color: "red-text-gradient",
-      },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "TypeScript", color: "green-text-gradient" },
+      { name: "AWS Lambda", color: "pink-text-gradient" },
+      { name: "DynamoDB", color: "yellow-text-gradient" },
+      { name: "Step Functions", color: "red-text-gradient" },
+    ],
+    image: forge,
+    source_code_link: "https://github.com/rishisahu8459/paykit",
+  },
+  {
+    name: "AI Payments Support Agent",
+    description:
+      "Tool-using AI support agent for payment queries and refunds with schema-validated tools, per-customer data isolation, human approval for large refunds, and a dedicated evaluation harness.",
+    tags: [
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "LLM API", color: "green-text-gradient" },
+      { name: "AWS", color: "yellow-text-gradient" },
+      { name: "DynamoDB", color: "pink-text-gradient" },
+      { name: "MCP", color: "red-text-gradient" },
+    ],
+    image: next,
+    source_code_link: "https://github.com/rishisahu8459/ai-payments-support-agent",
+  },
+  {
+    name: "Apparel Store + Multi-Store CMS",
+    description:
+      "Full-stack e-commerce platform and CMS running multiple stores from one admin dashboard, with MySQL schema design, REST routes, Stripe payments, Clerk authentication, and email notifications.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "TypeScript", color: "yellow-text-gradient" },
+      { name: "Prisma", color: "pink-text-gradient" },
+      { name: "MySQL", color: "red-text-gradient" },
+    ],
+    image: next,
+    source_code_link: "https://github.com/rishisahu8459/ecommerce-admin",
+  },
+  {
+    name: "CryptoCrowd Forge",
+    description:
+      "A crowdfunding platform leveraging blockchain technology, allowing users to create campaigns, set goals, manage deadlines, and send or receive donations securely and transparently.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "ether.js", color: "green-text-gradient" },
+      { name: "React.js", color: "yellow-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "Solidity", color: "red-text-gradient" },
     ],
     image: forge,
     source_code_link: "https://cryptocrowdforge.netlify.app/",
   },
   {
-    name: "Apparel store with dashboard And CMS",
+    name: "URL Shortener and Dashboard",
     description:
-      "Developed a Dashboard and CMS using Next.js, Javascript and Mysql to manage multiple stores. ",
+      "A web application that shortens URLs and provides analytics for click tracking and engagement insights.",
     tags: [
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Mysql",
-        color: "red-text-gradient",
-      },
-    ],
-    image: next,
-    source_code_link: "https://github.com/rishisahu8459/ecommerce-admin",
-  },
-  
-  {
-    name: "Url Shortener and Dashboard",
-    description:
-      "Android application that allows users to shorten URLs and view analytics for the shortened URLs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: open,
     source_code_link: "https://github.com/rishisahu8459/open-in-app-Application",
   },
   {
-    name: "Ecommerce Web App ",
+    name: "Ecommerce Web App",
     description:
-      "Designed an Ecommerce web App using python and Django With Features like Add to cart ,browse with categories and filters.",
+      "An e-commerce web app built with Python and Django featuring category browsing, product filters, and a cart flow.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "restapi", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
     ],
     image: carrent,
     source_code_link: "https://github.com/rishisahu8459/ecommerceapp",
   },
   {
-    name: "Note Taking app",
+    name: "Note Taking App",
     description:
-      " A note taking app that allows users to create, edit, and delete notes. Users can also search for notes.",
+      "A note-taking app that lets users create, edit, delete, and search their notes efficiently.",
     tags: [
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "Javascript", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: note,
     source_code_link: "https://github.com/rishisahu8459/Noteapp",

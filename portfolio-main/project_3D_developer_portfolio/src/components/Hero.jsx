@@ -5,11 +5,11 @@ import { styles } from "../styles";
 import { HeroCanvas } from "./canvas";
 
 const roles = [
-  "Frontend Developer",
-  "React Specialist",
-  "Cloud Developer",
-  "Agentic AI",
-  "Cyber Security",
+  "Software Development Engineer",
+  "React + TypeScript",
+  "Cloud & DevOps",
+  "Full-Stack Engineer",
+  "UI Systems Builder",
 ];
 
 // Avoid mounting the heavy WebGL canvas on small / low-power devices.
@@ -148,8 +148,8 @@ const Hero = () => {
           </motion.p>
 
           <motion.h1 variants={item} className={styles.heroHeadText}>
-            I build <span className="text-gradient-accent">immersive</span>
-            <br className="hidden sm:block" /> web experiences
+            I build <span className="text-gradient-accent">scalable</span>
+            <br className="hidden sm:block" /> product experiences
           </motion.h1>
 
           <motion.h2
@@ -163,8 +163,7 @@ const Hero = () => {
             variants={item}
             className="text-secondary mt-5 text-[16px] sm:text-[18px] leading-relaxed max-w-xl"
           >
-            Crafting interactive, fast and aesthetic interfaces with a creative
-            touch — blending clean engineering with motion and 3D.
+            I design and ship reusable React/TypeScript interfaces, performant enterprise workflows, and cloud-aware product experiences for high-traffic users.
           </motion.p>
 
           <motion.div
